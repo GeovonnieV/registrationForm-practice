@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg Form</title>
+</head>
+
+<body>
+    <form method="post">
+        <h1>
+            My Registration Form
+        </h1>
+        <!-- first name input  -->
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" placeholder="Jon">
+        <br>
+        <!-- last name input  -->
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" placeholder="Doe">
+        <br>
+        <!-- email input  -->
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" placeholder="you@you.com">
+        <br>
+        <!-- password name input  -->
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" placeholder="password">
+        <br>
+        <!-- pw confirm input  -->
+        <label for="pw-confirm">confirm password:</label>
+        <input type="pw-confirm" id="pw-confirm" name="pw-confirm" placeholder="confirm password">
+        <br>
+        <!-- birthday input  -->
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <br>
+        <!-- radio btns -->
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br>
+        <!-- text area -->
+        <label for="about">a short description about yourself:</label>
+        <br>
+        <textarea name="about" id="about" cols="30" rows="10" placeholder="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, vel soluta? Tempora nulla autem similique, quia velit ad vel totam et fugiat optio, alias facilis, vitae ea inventore delectus eos!"></textarea>
+        <br>
+        <!-- select -->
+        <label for="languages">Favorite Language:</label>
+        <select name="languages" id="languages">
+          <option value="JavaScript">JavaScript</option>
+          <option value="Java">Java</option>
+          <option value="Python">Python</option>
+          <option value="C">C</option>
+        </select>
+        <br>
+        <!-- submit -->
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
